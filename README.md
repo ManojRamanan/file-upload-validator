@@ -28,25 +28,23 @@ You can include the File Upload Validator library in your project using Maven:
 </dependency>
 
 Replace the values with the appropriate group ID, artifact ID, and version for your project.
+
 Usage
 
-    Import the necessary classes:
+## Import the necessary classes:
 
-java
 
 import com.example.fileuploadvalidator.FileUploadValidator;
 import com.example.fileuploadvalidator.FileValidationResult;
 import com.example.fileuploadvalidator.FileValidationRule;
 
-    Create an instance of FileUploadValidator:
+## Create an instance of FileUploadValidator:
 
-java
 
 FileUploadValidator validator = new FileUploadValidator();
 
-    Define validation rules:
+## Define validation rules:
 
-java
 
 FileValidationRule rule = new FileValidationRule()
     .allowedExtensions("jpg", "png")
@@ -54,7 +52,7 @@ FileValidationRule rule = new FileValidationRule()
 
     Validate an uploaded file:
 
-java
+
 
 MultipartFile uploadedFile = ...; // Obtain the uploaded file
 FileValidationResult validationResult = validator.validate(uploadedFile, rule);
@@ -65,7 +63,7 @@ if (!validationResult.isValid()) {
     // ...
 }
 
-Configuration
+## Configuration
 
 You can customize the validation rules and behaviors by configuring the FileValidationRule class. Refer to the JavaDoc and source code for more information on available options.
 Contributing
