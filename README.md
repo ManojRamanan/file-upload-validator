@@ -27,6 +27,8 @@ You can include the File Upload Validator library in your project using Maven:
     <version>1.0.0</version>
 </dependency>
 
+```
+
 Replace the values with the appropriate group ID, artifact ID, and version for your project.
 
 ##Usage
