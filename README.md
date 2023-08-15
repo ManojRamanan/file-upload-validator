@@ -29,7 +29,7 @@ You can include the File Upload Validator library in your project using Maven:
 
 Replace the values with the appropriate group ID, artifact ID, and version for your project.
 
-Usage
+##Usage
 
 ## Import the necessary classes:
 
@@ -66,7 +66,8 @@ if (!validationResult.isValid()) {
 ## Configuration
 
 You can customize the validation rules and behaviors by configuring the FileValidationRule class. Refer to the JavaDoc and source code for more information on available options.
-Contributing
+
+##Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, follow these steps:
 
@@ -76,7 +77,7 @@ Contributions are welcome! If you'd like to contribute to this project, follow t
     Push to the branch: git push origin feature/your-feature-name.
     Create a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
